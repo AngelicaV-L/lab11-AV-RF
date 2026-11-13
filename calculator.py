@@ -4,7 +4,22 @@ calculator.py
 
 One function per operation, in order.
 """
+import math
 # First example
+try:
+    def square_root (a) :
+        if a < 0:
+            raise ValueError
+        else:
+            math.sqrt(a)
+    def hypotenuse(a,b):
+        math.hypot(a,b)
+
+except ValueError:
+    print("input has to be greater than 0")
+
+
+
 def add(a, b): return a + b
 
 def subtract(a,b): return a - b
