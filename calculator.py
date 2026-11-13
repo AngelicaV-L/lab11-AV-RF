@@ -5,7 +5,24 @@ calculator.py
 One function per operation, in order.
 """
 # First example
+<<<<<<< HEAD
 import math
+=======
+def add(a, b): return a + b
+
+def subtract(a,b): return a - b
+
+def multiply (a,b): return a * b
+
+
+def logarithm(a,b):
+
+    if b == 0:
+        raise ValueError
+    else:
+        logarithm(b,a)
+def exponent(a,b): return a**b
+
 
 def add(a,b):
     return a+b
