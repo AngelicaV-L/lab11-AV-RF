@@ -1,4 +1,8 @@
 """
+#https://github.com/AngelicaV-L/lab11-AV-RF
+#Partner 1: Angelica Velazquez-Lassalle
+#Parter 2: Robert F
+
 calculator.py
 - Defines functions used to create a simple calculator
 
