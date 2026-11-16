@@ -1,9 +1,9 @@
-import unittest
-from calculator import *
-
 #https://github.com/AngelicaV-L/lab11-AV-RF
 #Partner 1: Angelica Velazquez-Lassalle
 #Parter 2: Robert F
+import unittest
+from calculator import *
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
