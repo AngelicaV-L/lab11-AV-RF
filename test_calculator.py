@@ -10,7 +10,7 @@ class TestCalculator(unittest.TestCase):
     def test_add(self): # 3 assertions
         self.assertEqual(add(1,2),3)
         self.assertEqual(add(0,0),0)
-        self.asserEqual(add(1000,2),1002)
+        self.assertEqual(add(1000,2),1002)
 
 
 
