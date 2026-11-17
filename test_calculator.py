@@ -41,9 +41,9 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(logarithm(2,16),4)
-        self.assertEqual(logarithm(10,10),1)
-        self.assertEqual(logarithm(3,27),3)
+        self.assertEqual(logarithm(16,2),4.0)
+        self.assertEqual(logarithm(10,10),1.0)
+        self.assertEqual(logarithm(27,3),3.0)
 
 
     def test_log_invalid_base(self): # 1 assertion
@@ -55,14 +55,14 @@ class TestCalculator(unittest.TestCase):
           logarithm(2, 0)
 
     def test_hypotenuse(self): # 3 assertions
-        self.assertEqual(hypotenuse(3, 4), 5)
-        self.assertEqual(hypotenuse(-5, -12), 13)
-        self.assertEqual(hypotenuse(0, 0), 0)
+        self.assertEqual(hypotenuse(3, 4), 5.0)
+        self.assertEqual(hypotenuse(-5, -12), 13.0)
+        self.assertEqual(hypotenuse(0, 0), 0.0)
     def test_sqrt(self): # 3 assertions
         with self.assertRaises(ValueError):
             square_root(-1)
-        self.assertEqual(square_root(9), 3)
-        self.assertEqual(square_root(0), 0)
+        self.assertEqual(square_root(9), 3.0)
+        self.assertEqual(square_root(0), 0.0)
 
 
 # Do not touch this
