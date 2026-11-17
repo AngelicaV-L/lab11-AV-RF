@@ -41,7 +41,7 @@ def logarithm(a,b):
     if b == 0:
         raise ValueError
     else:
-        logarithm(b,a)
+        math.log(b,a)
 
 def exp(a,b):
     return a ** b
